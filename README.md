@@ -1,8 +1,10 @@
 # MIDE3700
 
-## **M**edición **I**nteractiva de la **D**iscontinuidad **E**n **3700** angstroms
+**M***edición* **I***nteractiva de la* **D***iscontinuidad* **E***n* **3700** *angstroms*
 
-### Autores: Yael Aidelman y Valentín Domé
+Autores: Yael Aidelman y Valentín Domé
+
+### Descarga e Instalación
 
 Paso 1: Descarga el repositorio
 
