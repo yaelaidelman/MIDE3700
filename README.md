@@ -13,7 +13,7 @@ Con esta herramienta el usuario puede trabajar de manera interactiva sobre el es
 M.I.D.E.3700 is a code that allows to interactively measure the parameters that characterize the Balmer discontinuity and the color gradient (D, &lambda;<sub>1</sub> and &Phi;) of the BCD spectrophotomic system. Its name corresponds to the acronym for Medición Interactiva de la Discontinuidad En 3700 &#8491; (Interactive Discontinuity Measurement at 3700 &#8491;). With this tool the user can work interactively on the spectrum, and thus choose the best fit. In this way M.I.D.E.3700 estimates the values of D, &lambda;<sub>1</sub> and &Phi; quickly and easily, with which it determines the spectral type, luminosity class and fundamental stellar parameters (effective temperature, logarithm of surface gravity, absolute visual magnitude, bolometric magnitude and colour excess) of the star in question. Additionally, the results are used to estimate the distance.
 
 
-### Descarga e Instalación / Download and Installation
+## Descarga e Instalación / Download and Installation
 
 Paso 1: Descarga el repositorio.
 Step 1: Download the repository.
