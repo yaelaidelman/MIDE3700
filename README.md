@@ -57,7 +57,9 @@ python3 MIDE3700.py
 ```
 
 Puedes cambiar el tamaño de resolución de pantalla en el archivo /Configuraciones/resolucion.txt
+
 altura,ancho (sin espacios)
 
 You can change the screen resolution size in the file /Configuraciones/resolucion.txt
+
 height,width (without spaces)
