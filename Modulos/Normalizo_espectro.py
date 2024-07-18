@@ -184,7 +184,7 @@ class Normalizo_espectro(Espectro.Espectro):
         self.axes.set_xlabel('$\lambda$ [$\AA$]')
         self.axes.set_ylabel('$\log (F_{\lambda})$')
         self.axes.axvline(x=1./3700., color='k')
-        self.axes.plot(self.l_onda, log_flujo, 'b-')
+        self.axes.plot(self.l_onda, log_flujo, 'b-', linewidth=0.7)
 #
 # Grafico los ajustes realizados hasta el momento
 #

@@ -90,7 +90,33 @@ class Parametros:
 #
         self.lohice_te, ties, self.extra_te= curvas.Interpolo(self.BCD.D_est, self.BCD.lambda1)
 #
-        n= Algebra.Redondeo_int_mas_cerca( ties )
+        if 6 <= ties <=8:
+            if ties < 7:
+                n = 6
+            else:
+                n = 7
+        elif 13 <= ties <= 15:
+            if ties < 14:
+                n = 13
+            else:
+                n = 14
+        elif 15 <= ties <= 17:
+            if ties < 16:
+                n = 15
+            else:
+                n = 16
+        elif 17 <= ties <= 19:
+            if ties < 18:
+                n = 17
+            else:
+                n = 18
+        elif 20 <= ties <= 22:
+            if ties < 21:
+                n = 20
+            else:
+                n = 21
+        else:
+            n= Algebra.Redondeo_int_mas_cerca( ties )
 #
 # n= 10x + y
 #

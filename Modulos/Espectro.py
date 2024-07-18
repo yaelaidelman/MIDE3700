@@ -103,7 +103,7 @@ class Espectro:
         while linea != "": # Lee linea por linea hasta el final del archivo
 # Como las columnas estan separadas por espacios guardamos las columnas
 # en una lista
-            columna= linea.split("  ")
+            columna= linea.split()
             self.l_onda.append( float(columna[0]) )# Primera columna del archivo
             self.flujo.append( float(columna[1]) )# Segunda columna del archivo
             linea= file_in.readline()# leemos la siguiente linea del archivo
@@ -136,7 +136,7 @@ class Espectro:
         self.axes.set_xlabel('$\lambda$ [$\AA$]')
         self.axes.set_ylabel('$\log (F_{\lambda})$')
         self.axes.axvline(x=3700., color='k')
-        self.axes.plot(self.l_onda, self.log_flujo, 'b-')
+        self.axes.plot(self.l_onda, self.log_flujo, 'b-', linewidth=0.7)
 
 #
 # Grafico los ajustes realizados hasta el momento
@@ -321,6 +321,9 @@ class Espectro:
         plt.savefig(f_ajuste)
         plt.clf()
         # input("Fin de impresion...")
+
+        #Mostramos la figura guardada en pantalla
+        f_png= Image.open(f_ajuste).show()
 #
         if n == 1:
 #

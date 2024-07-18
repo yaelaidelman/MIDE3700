@@ -169,8 +169,8 @@ class Inter_Grafica:
         If not there are sufficient points, show error.
         """
         
-        if self.get_cant_active_points() < 5:
-            self.cambiar_titulo(f"Error: No hay suficientes puntos activos, deben ser al menos 5, faltan {5-self.get_cant_active_points()}")
+        if self.get_cant_active_points() < 4:
+            self.cambiar_titulo(f"Error: No hay suficientes puntos activos, deben ser al menos 4, faltan {4-self.get_cant_active_points()}")
             return
         else: 
             self.espectro.figure.texts.clear()  # Eliminar todos los textos existentes en el gráfico
@@ -382,7 +382,7 @@ class Inter_Grafica:
                     self.key2= False
 #
         else:
-            print("crrenado")
+            print("cerrando")
             plt.close(event.canvas.figure)
 # Guardo los valores
             self.Print_pol('parabola')

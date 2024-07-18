@@ -58,8 +58,6 @@ curvas_mbol = curvas_dict["Mbol"]
 curvas_phio_c = curvas_dict["PHIo_c"]
 curvas_phio_f = curvas_dict["PHIo_f"]
 
-# probar(curvas=curvas_te_c)
-
 #obsoleto?
 """
 curvas_teff= Curvas.Curvas("Teff")
