@@ -16,6 +16,7 @@ M.I.D.E.3700 is a code that allows to interactively measure the parameters that 
 ## Descarga e Instalación / Download and Installation
 
 Paso 1: Descarga el repositorio.
+
 Step 1: Download the repository.
 
 ```
@@ -23,6 +24,7 @@ git clone https://github.com/yaelaidelman/MIDE3700
 ```
 
 Paso 2 (opcional): Si es usuario de conda puedes generar un entorno.
+
 Step 2 (optional): If you are a conda user you can generate an environment.
 
 ```
@@ -31,6 +33,7 @@ conda activate mide3700
 ```
 
 Paso 3: Dirígete al directorio creado.
+
 Step 3: Go to the created directory.
 
 ```
@@ -38,6 +41,7 @@ cd MIDE3700
 ```
 
 Paso 4: Instala las librerias de python requeridas.
+
 Step 4: Install the required python libraries.
 
 ```
@@ -45,6 +49,7 @@ pip install -r requirement.py
 ```
 
 Paso 5: Ejecuta el programa con el siguiente comando:
+
 Step 5: Execute the program with the following command:
 
 ```
