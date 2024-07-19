@@ -382,7 +382,7 @@ class Inter_Grafica:
                     self.key2= False
 #
         else:
-            print("cerrando")
+            print("crrenado")
             plt.close(event.canvas.figure)
 # Guardo los valores
             self.Print_pol('parabola')

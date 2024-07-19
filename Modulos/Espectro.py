@@ -98,6 +98,7 @@ class Espectro:
 #
         file_in= open(archivo, 'r') # Abro el archivo de lectura
         linea= file_in.readline()
+        linea= file_in.readline()
 #
     # Leemeos el archivo
         while linea != "": # Lee linea por linea hasta el final del archivo
